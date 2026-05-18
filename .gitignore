@@ -1,0 +1,70 @@
+# Environment / credentials
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+output_notebooks/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data (large files — not versioned)
+data/
+notebooks/reportes_html/
+notebooks/preprocesing/Images/
+Backup/
+
+# Experiment inputs/outputs
+experiments/input/
+experiments/output/
+
+# External tools / third-party submodules
+tika/
+utils/chrome_driver/
+utils/nlm-ingestor/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large binary / model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Reports (non-code)
+reports/
+
+# Scratch / exploratory notebooks (not part of main pipeline)
+notebooks/test.ipynb
+notebooks/Tests/
